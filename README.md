@@ -107,7 +107,29 @@ First, generate an SSH Key:
 
 ```ssh-keygen -t ed25519 -C "your_other_email@example.com" -f ~/.ssh/id_ed25519_elite```
 
+Then, Copy the "public key and paste it inside the SSH Tab"
 
+```cat ~/.ssh/id_ed25519_elite```
+
+After that, run 
+Note that you need to get the URL from the Repository itself.
+
+1) Go to the respository
+2) In the code dropdown, choose SSH
+3) Copy the ssh link.
+
+```git remote add <your github ssh URL>``` 
+
+Then, pull:
+```git remote pull```
+
+Then add and commit your changes
+
+```bash
+git add . 
+git commit -m "Initial Commit"
+```
+And that's it!
 ### 📜 License
 MIT
 
