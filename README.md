@@ -99,6 +99,15 @@ Predictable renaming with templated patterns
 
 Unit tests for utility and core rename planner logic
 
+## Authenticate and push to Github
+
+We will use SSH authentication
+
+First, generate an SSH Key:
+
+```ssh-keygen -t ed25519 -C "your_other_email@example.com" -f ~/.ssh/id_ed25519_elite```
+
 
 ### 📜 License
 MIT
+
